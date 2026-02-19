@@ -1,0 +1,8 @@
+# Ativação do Firewall UFW
+sudo ufw enable
+
+# Liberação de acesso SSH para IP específico
+sudo ufw allow from 10.0.0.102 to any port 22
+
+# Verificação das regras do UFW
+sudo ufw status numbered
