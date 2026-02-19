@@ -1,0 +1,2 @@
+# Edição da configuração do SSH (sshd_config)
+sudo nano /etc/ssh/sshd_config
