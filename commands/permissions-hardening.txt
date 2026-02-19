@@ -1,0 +1,2 @@
+# Ajuste de permissão do .bash_history
+chmod 600 ~/.bash_history
