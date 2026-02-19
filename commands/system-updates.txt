@@ -1,0 +1,8 @@
+# Atualização dos pacotes do sistema
+sudo apt update && sudo apt upgrade -y
+
+# Instalação do unattended-upgrades
+sudo apt install unattended-upgrades -y
+
+# Habilitação das atualizações automáticas
+sudo dpkg-reconfigure unattended-upgrades
